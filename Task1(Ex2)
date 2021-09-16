@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int x,y;
+
+    cout<<"Enter your Age";
+    cin>>x;
+
+    cout<<"Enter your family members age";
+    cin>>y;
+
+    if(x>y)
+    {
+        cout<<"You are the older one";
+    }
+    else
+    {
+        cout<<"You are younger";
+    }
+return 0;
+}
