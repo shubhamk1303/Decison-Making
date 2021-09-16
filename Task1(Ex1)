@@ -3,21 +3,24 @@ using namespace std;
 
 int main() 
 {
-    int x,y;
+    cout<<"Pool Party on Saturday\n";
 
-    cout<<"Enter your Age";
-    cin>>x;
+    int age;
+    cout<<"Please verify your age";
+    cin>>age;
 
-    cout<<"Enter your family members age";
-    cin>>y;
-
-    if(x>y)
+    if(age>=21)
     {
-        cout<<"You are the older one";
+        cout<<"You are permitted to attend the Pool Party";
+    }
+    else if(age>=18)
+    {
+        cout<<"Please attend the other party";
     }
     else
     {
-        cout<<"You are younger";
+        cout<<"NOT ALLOWED";
     }
-return 0;
-}
+
+    return 0;
+}    
